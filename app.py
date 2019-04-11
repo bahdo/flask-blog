@@ -12,7 +12,7 @@ Articles = Articles()
 # Config MySQL
 app.config['MYSQL__DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'pnteos12'
+app.config['MYSQL_DATABASE_PASSWORD'] = '******'
 app.config['MYSQL_DATABASE_DB'] = 'myflaskapp'
 app.config['MYSQL_DATABASE_CURSORCLASS'] = 'DictCursor'
 # init MYSQL
@@ -246,5 +246,5 @@ def delete_article(id):
 
 
 if __name__ == '__main__':
-	app.secret_key='super2duper0cudder1'
+	app.secret_key='********'
 	app.run(debug=True)
